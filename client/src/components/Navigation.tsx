@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import { Link } from "wouter";
 import Logo from "./Logo";
 
@@ -26,26 +26,40 @@ export default function Navigation() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
-            {navItems.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                className="text-gray-700 hover:text-primary transition-colors"
-                onClick={(e) => {
-                  e.preventDefault();
-                  document.querySelector(item.href)?.scrollIntoView({
-                    behavior: "smooth",
-                  });
-                }}
-              >
-                {item.label}
+          <div className="hidden md:flex items-center">
+            <div className="flex items-center space-x-8 mr-8">
+              {navItems.map((item) => (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  className="text-gray-700 hover:text-primary transition-colors"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.querySelector(item.href)?.scrollIntoView({
+                      behavior: "smooth",
+                    });
+                  }}
+                >
+                  {item.label}
+                </a>
+              ))}
+            </div>
+            <div className="flex items-center text-primary">
+              <Phone className="h-4 w-4 mr-2" />
+              <a href="tel:(555) 123-4567" className="hover:text-primary/80">
+                (555) 123-4567
               </a>
-            ))}
+            </div>
           </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
+            <div className="flex items-center text-primary mr-4">
+              <Phone className="h-4 w-4 mr-2" />
+              <a href="tel:(555) 123-4567" className="hover:text-primary/80">
+                (555) 123-4567
+              </a>
+            </div>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-700 hover:text-primary"
