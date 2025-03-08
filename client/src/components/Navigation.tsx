@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "wouter";
+import Logo from "./Logo";
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -18,7 +19,9 @@ export default function Navigation() {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
-              <a className="text-2xl font-bold text-primary">Roof Masters</a>
+              <a>
+                <Logo />
+              </a>
             </Link>
           </div>
 
