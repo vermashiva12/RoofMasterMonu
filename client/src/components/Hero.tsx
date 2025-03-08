@@ -27,6 +27,8 @@ export default function Hero() {
             >
               Get a Free Quote
             </Button>
+
+            
             <Button
               size="lg"
               variant="outline"
@@ -38,6 +40,19 @@ export default function Hero() {
               }}
             >
               Our Services
+            </Button>
+
+             <Button
+              size="lg"
+              variant="outline"
+              className="bg-white/10 text-white border-white/20 hover:bg-white/20"
+              onClick={() => {
+                document.querySelector("#services")?.scrollIntoView({
+                  behavior: "smooth",
+                });
+              }}
+            >
+              Book Appointment
             </Button>
           </div>
         </div>
