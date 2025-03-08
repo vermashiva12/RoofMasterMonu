@@ -47,7 +47,7 @@ export default function Navigation() {
             <div className="flex items-center text-primary">
               <Phone className="h-4 w-4 mr-2" />
               <a href="tel:(555) 123-4567" className="hover:text-primary/80">
-                (555) 123-4567
+                (780) 729-4400
               </a>
             </div>
           </div>
