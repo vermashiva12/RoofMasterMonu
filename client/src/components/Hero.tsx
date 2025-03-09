@@ -46,11 +46,7 @@ export default function Hero() {
               size="lg"
               variant="outline"
               className="bg-white/10 text-white border-white/20 hover:bg-white/20"
-              onClick={() => {
-                document.querySelector("#services")?.scrollIntoView({
-                  behavior: "smooth",
-                });
-              }}
+              onClick="https://calendly.com/roofmasters340"
             >
               Book Appointment
             </Button>
