@@ -26,6 +26,12 @@ const services = [
       "Regular maintenance and prompt repair services to extend your roof's lifespan.",
     icon: Shield,
   },
+   {
+    title: "Waterproofing Services",
+    description:
+      "Protect your property with our expert roof waterproofing services, ensuring durability and leak-free performance. ",
+    icon: Shield,
+  },
 ];
 
 export default function Services() {
