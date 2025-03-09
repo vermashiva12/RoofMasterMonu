@@ -42,14 +42,17 @@ export default function Hero() {
               Our Services
             </Button>
 
-             <Button
+            <Button
               size="lg"
               variant="outline"
               className="bg-white/10 text-white border-white/20 hover:bg-white/20"
-              onClick="https://calendly.com/roofmasters340"
+              onClick={() => {
+                window.open("https://calendly.com/roofmasters340", "_blank");
+              }}
             >
               Book Appointment
             </Button>
+
           </div>
         </div>
       </div>
