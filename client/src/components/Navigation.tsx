@@ -30,8 +30,8 @@ export default function Navigation() {
             <h2 className='text-3xl text-black '> Roof Masters</h2>
  */}
 {/*             <MainLogo className="text-primary w-10 h-10" /> */}
-            <img src="../static/RoofMasters-2.svg" alt="Roof Masters Logo" className="text-primary w-10 h-10" />
- */}
+            // <img src="../static/RoofMasters-2.svg" alt="Roof Masters Logo" className="text-primary w-10 h-10" />
+
           </div>
 
           {/* Desktop Navigation */}
