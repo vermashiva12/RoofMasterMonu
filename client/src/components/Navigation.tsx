@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Link } from "wouter";
 import Logo from "./Logo";
-//import MainLogo from "../static/RoofMasters-2.svg";
+
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -24,14 +24,8 @@ export default function Navigation() {
               <a>
                 <Logo />
               </a>
-            </Link> 
-
-{/*              <img src={MainLogo}  alt="Logo" style={{width: '180px' , height: '150px'}} />
-            <h2 className='text-3xl text-black '> Roof Masters</h2>
- */}
-{/*             <MainLogo className="text-primary w-10 h-10" /> */}
-            // <img src="../static/RoofMasters-2.svg" alt="Roof Masters Logo" className="text-primary w-10 h-10" />
-
+            </Link>
+          
           </div>
 
           {/* Desktop Navigation */}
