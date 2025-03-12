@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Link } from "wouter";
-import Logo from "./Logo";
+//import Logo from "./Logo";
+import MainLogo from "./static/RoofMasters-2.svg";
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -21,7 +22,7 @@ export default function Navigation() {
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
               <a>
-                <Logo />
+                <MainLogo />
               </a>
             </Link>
           </div>
