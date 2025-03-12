@@ -22,7 +22,7 @@ export default function Navigation() {
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
               <a>
-                <MainLogo />
+                <Logo />
               </a>
             </Link> 
 
