@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import RoofMastersLogo from "../static/RoofMasters-2.svg";
 
 interface LogoProps {
   className?: string;
@@ -7,7 +8,7 @@ interface LogoProps {
 export default function Logo({ className }: LogoProps) {
   return (
     <div className={cn("flex items-center gap-2", className)}>
-      <svg
+{/*       <svg
         width="40"
         height="40"
         viewBox="0 0 40 40"
@@ -31,7 +32,10 @@ export default function Logo({ className }: LogoProps) {
           strokeLinecap="round"
           strokeLinejoin="round"
         />
-      </svg>
+      </svg> */}
+
+     <RoofMastersLogo className="text-primary w-10 h-10" />
+
       <span className="text-2xl font-bold text-primary">
         Roof Masters
       </span>
