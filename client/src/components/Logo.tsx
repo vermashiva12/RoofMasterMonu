@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import {RoofMaster} from "../static/RoofMasters-2.svg";
+import {RoofMaster} from "@/static/RoofMasters-2.svg";
 
 interface LogoProps {
   className?: string;
