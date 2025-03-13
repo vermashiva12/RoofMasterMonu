@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import Logo from "@static/RoofMasters.jpg";
+import Master from "@/static/RoofMasters.jpg";
 
 export default function About() {
   return (
@@ -8,7 +8,7 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src={Logo}
+              src={Master}
               alt="Roofing team at work"
               className="rounded-lg shadow-xl"
             />
