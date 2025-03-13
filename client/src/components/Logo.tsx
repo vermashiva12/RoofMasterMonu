@@ -10,7 +10,7 @@ export default function Logo({ className }: LogoProps) {
     <div className={cn("flex items-center gap-2", className)}>
 
       <img 
-        src="/static/RoofMasters-2.svg" 
+        src="../static/RoofMasters-2.svg" 
         alt="Roof Masters Logo" 
         className="w-10 h-10"
       />
