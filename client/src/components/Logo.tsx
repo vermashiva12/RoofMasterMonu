@@ -12,7 +12,7 @@ export default function Logo({ className }: LogoProps) {
       <img 
         src={RoofMaster}
         alt="Roof Masters" 
-        className="w-50 h-50"
+        className="w-20 h-20"
       />
       <span className="text-xl font-bold text-primary">
         Roof Masters
