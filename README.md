@@ -6,6 +6,8 @@ A professional roofing company website built with React, TypeScript, and Tailwin
 
 ### Key Components
 
+#### Old OKLCH : "primary": "oklch(70% 0.1 140)",
+
 ```
 client/src/
 ├── components/
