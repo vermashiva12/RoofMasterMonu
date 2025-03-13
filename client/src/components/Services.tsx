@@ -7,6 +7,8 @@ const services = [
     description:
       "Comprehensive roofing solutions for businesses, warehouses, and commercial properties.",
     icon: Building2,
+    link: "#commercial-roofing"
+    
   },
   {
     title: "Residential Roofing",
@@ -51,6 +53,7 @@ export default function Services() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service) => (
+            <a key={index} href={service.link} className="block hover:underline">
             <Card key={service.title} className="border-none shadow-lg">
               <CardHeader>
                 <service.icon className="w-12 h-12 text-primary mb-4" />
