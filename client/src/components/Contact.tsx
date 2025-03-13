@@ -46,9 +46,9 @@ export default function Contact() {
               <div>
                 <h4 className="font-semibold mb-1">Our Location</h4>
                 <p className="text-gray-600">
-                  123 Roofing Street
-                  <br />
-                  City, State 12345
+{/*                   123 Roofing Street
+                  <br /> */}
+                  Edmonton,Alberta
                 </p>
               </div>
             </div>
@@ -65,7 +65,7 @@ export default function Contact() {
               <Mail className="w-6 h-6 text-primary flex-shrink-0" />
               <div>
                 <h4 className="font-semibold mb-1">Email</h4>
-                <p className="text-gray-600">info@roofmasters.com</p>
+                <p className="text-gray-600">roofmasters340@gmail.com</p>
               </div>
             </div>
 
